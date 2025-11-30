@@ -11,6 +11,31 @@
  Ejecuta una sentencia si una condición específica es
  evaluada como verdadera.
 
+- El codigo puede tomar decisiones si basandose en algo que es 
+verdadero o falso
+
+Sintaxis basica segun Claude :
+
+if (condicion) {
+ CODIGO QUE SE EJECUTA SI LA CONDICION ES VERDADERA 
+ } else {
+    CODIGO QUE SE EJECUTA SI LA CONDICION ES FALSA
+}
+
+Ejemplo:
+
+*/
+
+const edad = 17 ;
+
+if (edad >= 18) {
+    console.log ("Puedes votar");
+} else {
+    console.log("Aún no puedes votar maestro")
+}
+
+/*
+
  Sintaxis:
     if ( condición ) sentencia;
 
