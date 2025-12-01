@@ -37,3 +37,4 @@ console.log(`Accediendo al primer elemento:  ${ techStack[0] }` ); // "HTML"
 // Accediendo al segundo elemento
 
 // Acceder al último elemento (longitud - 1)
+console.log(`Accediendo al primer elemento:  ${ techStack[length - 1] }`);
