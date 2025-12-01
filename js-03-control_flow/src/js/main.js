@@ -226,7 +226,6 @@ console.log(getWeather(88));
 
 */
 
-<<<<<<< HEAD
 /*
 
  Refactorizar la función getWeather usando switch-case
@@ -325,7 +324,6 @@ console.log( getAccessLevel("editor") ); // Acceso para editar contenido
 
  Sintaxis:
 
-=======
 /**
  * Switch case con el patrón "Single Entry, Single Exit"
  */
@@ -478,13 +476,11 @@ console.log(evaluarElNumeroSwitch(100) ); // Grande
  Generalmente se utiliza como opción a la sentencia if-else.
 
  Sintaxis:
->>>>>>> main
   condición ? expresiónSiCondiciónEsVerdadera : expresionSiCondiciónEsFalsa; 
 
 */
 
 
-<<<<<<< HEAD
 /*
 
  Realizar una función que reciba un número y retorne
@@ -501,7 +497,6 @@ const valorNumero = (numero) => {
 
 console.log(valorNumero(8));
 console.log(valorNumero(7));
-=======
 const votingEligibility = (age) => {
     return age >= 18 ? "Puede votar" : "No puede votar";
 }
@@ -518,4 +513,3 @@ const numerosPar = (num) => {
     return num%2 === 0 ? "El número es par ;)" : "No es par :v";
 }
 console.log(numerosPar(14));
->>>>>>> main
