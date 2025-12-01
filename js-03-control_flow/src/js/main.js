@@ -225,3 +225,26 @@ console.log(getWeather(88));
   }
 
 */
+
+// Ejercicio de dinosauiro 
+
+const imagen = document.querySelector('.img-fluid-rounded');
+
+console.log(imagen);
+console.log(imagen.src);
+
+
+const estadoAnimo = (isHappy) => {
+    const imagen = document.querySelector('.img-fluid-rounded');
+    if (isHappy ) {
+        imagen.src = './public/images/dino.png'
+    } else { 
+        imagen.src= './public/images/dino-emo.png'
+
+    }
+}
+
+estadoAnimo (false);
+
+
+
