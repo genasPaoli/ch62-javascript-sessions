@@ -147,3 +147,19 @@ console.log(`Imprimiendo: ${printingNow}`); // thesis.pdf (El primero que llegó
    5. Muestra la lista actualizada.
    6. Atiende (elimina) la primera tarea de la lista y muéstrala.
 */
+// Crea un array llamado 'taskList' para gestionar tareas.
+   const taskList = [];
+// 1. Agrega 3 tareas usando 'push'.
+   taskList.push("Barrer", "Trapear", "Sacudir");
+// 2. Muestra la lista completa de tareas.
+   console.log("Lista de tareas inicial: " + taskList.join(", "));
+// 3. Las tareas normales se atienden en orden de llegada (FIFO)
+// 3.1 Retira (elimina) la primera tarea de la lista y muéstrala.
+   console.log("Tarea completada: " + taskList.shift());
+// 4. No dan una tarea URGENTE que debe ser atendida inmediatamente. Por lo que debes ponerla al inicio de la lista.
+   taskList.unshift("Limpiar arenero");
+// 5. Muestra la lista actualizada.
+   console.log("Tarea URGENTE añadida, lista de tareas actualizada: " + taskList.join(", "));
+// 6. Atiende (elimina) la primera tarea de la lista y muéstrala.
+   console.log("Tarea URGENTE completada: " + taskList.shift());
+   console.log("Lista de tareas final: " + taskList.join(", "));
