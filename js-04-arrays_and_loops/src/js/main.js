@@ -239,3 +239,9 @@ for (let index = 0; index < countries.length; index++) {
 // 3. Imprime el balance final.
 const transactions = [100.00, -50.00, 200.00, -100.00, 500.00];
 let totalBalance = 0;
+
+// 1. Usa un ciclo FOR, o WHILE o FOR-OF para recorrer los movimientos.
+
+//for 
+
+for( let = index = 0; index <  )
