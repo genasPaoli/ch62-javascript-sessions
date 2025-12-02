@@ -301,3 +301,6 @@ for (const country of countries) {
 
 const transactions = [100.00, -50.00, 200.00, -100.00, 500.00];
 let totalBalance = 0;
+
+// usando for-each
+transactions.forEach( (transaction, index, array)=> totalBalance += transaction );
