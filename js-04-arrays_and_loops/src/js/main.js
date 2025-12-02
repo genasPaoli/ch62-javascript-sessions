@@ -164,4 +164,41 @@ for(let i = 1; i <=10 ; i++ ) {
         break; 
     }
       console.log(`(con break) Número ${i}`);
+   
 }
+
+
+// =============================================
+let iteracion = 0;
+for (  ;   ;  ){
+    console.log( `Núm de iteración: ${iteracion}` ); // 0 , 1, 2, 3, 4
+    iteracion++;
+    if ( iteracion === 5 ){
+        break;
+    }
+}
+
+// =====================================================
+let myIteration; 
+for (myIteration = 0; myIteration <= 5; myIteration++) {
+    console.log("For loop", myIteration ); // 0 , 1, 2
+     if( myIteration === 2) break;  
+}
+console.log("Final", myIteration); //  2
+
+// =====================================================
+ let jiteration;
+for ( jiteration = 0; jiteration < 3; jiteration++ ) {
+   console.log("For loop", jiteration ); //
+}
+console.log("Final", jiteration); //
+
+
+
+// =====================================================
+let k;
+for ( k = 0; k < 5; k++ )         ; 
+{
+   console.log("Valor de", k ); // 5
+}
+console.log("Final", k); // 5
