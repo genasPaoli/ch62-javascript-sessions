@@ -141,7 +141,6 @@ console.log("Tareas completadas;" + tareaRemovida);
 
 
 
-
 /* ================================================================
    BLOQUE 3: BUCLES (LOOPS) 
    ================================================================
@@ -152,7 +151,7 @@ console.log("Tareas completadas;" + tareaRemovida);
 // Sintaxis: for (expresión_inicial; condición; expresión_final) { ... }
 // Imprimier los números del 1 al 5
 for(let i = 1; i <=5 ; i++ ) {
-    console.log(Número ${i});
+    console.log(Número,${i});
 }
 
 
@@ -224,7 +223,6 @@ for(let i = 1; i <=5 ; i++ ) {
 
 
 
-<<<<<<< HEAD
 
 // TODO: RETO FINAL (Simulación de Cajero)
 // Tienes un array de movimientos: [100.00, -50.00, 200.00, -100.00]
@@ -241,5 +239,3 @@ let totalBalance = 0;
 for( let = index = 0; index < transacrion.length; index++ ) {
    totalBalance = 
 }
-=======
->>>>>>> 49b2a5c9f2a9f8fc7ed21ef5b798bfe30c46f348
