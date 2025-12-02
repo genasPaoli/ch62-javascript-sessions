@@ -154,3 +154,14 @@ console.log("Tareas completadas;" + tareaRemovida);
 for(let i = 1; i <=5 ; i++ ) {
     console.log(Número ${i});
 }
+
+
+// ------------------- Uso de break en ciclos ----------------------------
+// break detiene la ejecución de la iteración en curso y termina el ciclo.
+for(let i = 1; i <=10 ; i++ ) {
+    if(i === 6) {
+        console.log("¡Se alcanzó el número 6");
+        break; 
+    }
+      console.log(`(con break) Número ${i}`);
+}
