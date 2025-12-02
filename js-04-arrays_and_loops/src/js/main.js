@@ -83,6 +83,13 @@ const colors = ["Rojo", "Verde", "Azul", "Amarillo", "Morado", "Naranja"];
 console.log("Colores iniciales:", colors.toString() ); // "Rojo,Verde,Azul,Amarillo,Morado,Naranja"
 console.log("Colores iniciales:", colors.join(" - ") ); // "Rojo - Verde - Azul - Amarillo - Morado - Naranja"
 
+/*insertar y/o eliminar elementos 
+
+variable.splice (start( desde donde quieres que empiece), (cuantos elementos va a eliminar) (de aqui en adelante se agregan mas elementos al array separados por comas))
+*/
+
+
+
 // Agregar 2 elementos en el índice 2, sin eliminar otros elementos
 colors.splice(2, 0, "Rosa", "Cian");
 console.log("Después de agregar con splice:", colors.toString() );
@@ -93,3 +100,19 @@ console.log("Después de agregar con splice:", colors.toString() );
 // 3. Agrega un invitado al principio
 // 4. Elimina al segundo invitado (índice 1) y agrega a otro en su lugar.
 // 4. Muestra la lista final.
+
+
+const guestList = ["Antonio", "Jasmin" ];
+console.log(guestList.toString())
+
+guestList.push ("Fernanda");
+console.log("push:", guestList);
+
+guestList.unshift ("Paola");
+console.log("unshift:", guestList);
+
+guestList.splice (1, 1, "Karen")
+console.log("splice:", guestList.toString());
+
+console.log(guestList)
+
