@@ -202,3 +202,21 @@ for ( k = 0; k < 5; k++ )         ;
    console.log("Valor de", k ); // 5
 }
 console.log("Final", k); // 5
+
+
+
+// --- 2. Ciclo WHILE (Basado en condición) ---
+// Úsalo cuando NO sabes cuántas veces se repetirá, depende de algo externo.
+// Cuidado: Si la condición nunca es falsa, creas un bucle infinito (Infinite Loop).
+
+while(  confirm("¿Quieres tu número de la suerte")  ){
+    const numeroSuerte = Math.random(); // 0....1.0(sin incluir 1.0)
+    console.log("Tu número de la suerte es: " + numeroSuerte);
+}
+console.log("Gracias por participar");
+
+
+// Imprimier los números del 1 al 5 (usando WHILE)
+for(let i = 1; i <=5 ; i++ ) {
+    console.log(`Número ${i}`);
+}
