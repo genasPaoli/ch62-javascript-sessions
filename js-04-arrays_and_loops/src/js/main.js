@@ -244,4 +244,6 @@ let totalBalance = 0;
 
 //for 
 
-for( let = index = 0; index <  )
+for( let = index = 0; index < transacrion.length; index++ ) {
+   totalBalance = 
+}
