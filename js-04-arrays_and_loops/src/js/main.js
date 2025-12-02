@@ -219,18 +219,12 @@ console.log("Gracias por participar");
 // Imprimier los números del 1 al 5 (usando WHILE)
 for(let i = 1; i <=5 ; i++ ) {
     console.log(`Número ${i}`);
-}
 
-
-const countries = ["México", "USA", "Canadá", "Japón"];
-// Usando FOR LOOP
-for (let index = 0; index < countries.length; index++) {
-   const element = countries[index];
-   console.log(`(for) País en índice ${index}: ${element}`);   
 }
 
 
 
+<<<<<<< HEAD
 
 // TODO: RETO FINAL (Simulación de Cajero)
 // Tienes un array de movimientos: [100.00, -50.00, 200.00, -100.00]
@@ -247,3 +241,5 @@ let totalBalance = 0;
 for( let = index = 0; index < transacrion.length; index++ ) {
    totalBalance = 
 }
+=======
+>>>>>>> 49b2a5c9f2a9f8fc7ed21ef5b798bfe30c46f348
