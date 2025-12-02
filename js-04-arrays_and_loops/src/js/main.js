@@ -116,3 +116,20 @@ console.log("splice:", guestList.toString());
 //Quinto
 console.log(guestList)
 
+
+
+const taskList = []
+
+taskList.push("lavar la ropa")
+taskList.push("lavar los trastes")
+taskList.push("lavar le baño")
+
+console.log("La lista de tareas es:" + taskList.toString())
+
+const tareaRemovida = taskList.pop();
+console.log("Tareas completadas;" + tareaRemovida);
+
+
+
+
+
