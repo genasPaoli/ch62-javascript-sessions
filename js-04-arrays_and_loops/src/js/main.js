@@ -116,7 +116,17 @@ console.log("splice:", guestList.toString());
 //Quinto
 console.log(guestList)
 
-
+/* ================================================================
+ Ejercicio:
+   Crea un array llamado 'taskList' para gestionar tareas.
+   1. Agrega 3 tareas usando 'push'.
+   2. Muestra la lista completa de tareas.
+   3. Las tareas normales se atienden en orden de llegada (FIFO)
+   4. No dan un tarea URGENTE que debe ser atendido inmediatamente.
+    Por lo que debes poner al inicio de la lista.
+   5. Muestra la lista actualizada.
+   6. Atiende (elimina) la primera tarea de la lista y muéstrala.
+*/
 
 const taskList = []
 
@@ -132,4 +142,15 @@ console.log("Tareas completadas;" + tareaRemovida);
 
 
 
-
+/* ================================================================
+   BLOQUE 3: BUCLES (LOOPS) 
+   ================================================================
+   Estructuras que repiten un bloque de código mientras una condición sea verdadera.
+*/
+// --- 1. Ciclo FOR (Controlado) ---
+// Úsalo cuando sabes cuántas veces quieres repetir algo (ej. recorrer un array).
+// Sintaxis: for (expresión_inicial; condición; expresión_final) { ... }
+// Imprimier los números del 1 al 5
+for(let i = 1; i <=5 ; i++ ) {
+    console.log(Número ${i});
+}
