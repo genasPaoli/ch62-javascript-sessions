@@ -101,18 +101,18 @@ console.log("Después de agregar con splice:", colors.toString() );
 // 4. Elimina al segundo invitado (índice 1) y agrega a otro en su lugar.
 // 4. Muestra la lista final.
 
-
+// Primer 
 const guestList = ["Antonio", "Jasmin" ];
 console.log(guestList.toString())
-
+//Segundo
 guestList.push ("Fernanda");
 console.log("push:", guestList);
-
+//Tercero
 guestList.unshift ("Paola");
 console.log("unshift:", guestList);
-
+//Cuarto
 guestList.splice (1, 1, "Karen")
 console.log("splice:", guestList.toString());
-
+//Quinto
 console.log(guestList)
 
