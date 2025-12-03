@@ -6,3 +6,7 @@ const changePrincipalTitle = ( titleId ) => {
         console.warn( `Element with id "${ titleId }" not found.` );
     }
 }
+
+
+
+export{ changePrincipalTitle};
