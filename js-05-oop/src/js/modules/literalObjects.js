@@ -15,6 +15,19 @@ incluso si tienen el mismo nombre descriptivo.
 
 */
 
+/*
+Mis apuntes: 
+Javascript esta diseñado en un paradigma orientado a objetos 
+Un objeto es una coleccion de propiedades, y una propiedad es una
+asociacion entre un nombre (o una llave) y un valor. 
+
+EL valor de una propiedad puede ser una funcion, en ese caso la propiedad
+es conocida como metodo +
+
+
+
+*/
+
 const internalId = Symbol("id");
 
 const aliceUser = {
