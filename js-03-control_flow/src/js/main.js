@@ -11,6 +11,31 @@
  Ejecuta una sentencia si una condición específica es
  evaluada como verdadera.
 
+- El codigo puede tomar decisiones si basandose en algo que es 
+verdadero o falso
+
+Sintaxis basica segun Claude :
+
+if (condicion) {
+ CODIGO QUE SE EJECUTA SI LA CONDICION ES VERDADERA 
+ } else {
+    CODIGO QUE SE EJECUTA SI LA CONDICION ES FALSA
+}
+
+Ejemplo:
+
+*/
+
+const edad = 17 ;
+
+if (edad >= 18) {
+    console.log ("Puedes votar");
+} else {
+    console.log("Aún no puedes votar maestro")
+}
+
+/*
+
  Sintaxis:
     if ( condición ) sentencia;
 
@@ -201,6 +226,104 @@ console.log(getWeather(88));
 
 */
 
+/*
+
+ Refactorizar la función getWeather usando switch-case
+
+*/
+
+const getWeatherSwitch=(codigo)=>
+
+switch (codigo) {
+    case 0:
+        return"Clear Sky";
+        break;
+    case 1:
+    case 2:
+    case 3:
+        return"Mainly clear, partly cloudy, and overcast";
+        break
+    case 45:
+    case 48:
+        return"Fog and depositing rime fog";
+        break;
+    default:
+        return"no definido";
+        break;
+    return message
+
+}
+
+
+// Ejercicio de dinosauiro 
+
+const imagen = document.querySelector('.img-fluid-rounded');
+
+console.log(imagen);
+console.log(imagen.src);
+
+
+const estadoAnimo = (isHappy) => {
+    const imagen = document.querySelector('.img-fluid-rounded');
+    if (isHappy ) {
+        imagen.src = './public/images/dino.png'
+    } else { 
+        imagen.src= './public/images/dino-emo.png'
+
+    }
+}
+
+estadoAnimo (false);
+
+
+
+
+const getAccessLevel = ( role ) => {
+
+    let accessLevel;
+
+    switch ( role ) {
+
+        case "admin":
+
+            accessLevel = "Acceso completo al sistema";
+
+            break;
+
+        case "editor":
+
+            accessLevel = "Acceso para editar contenido";
+
+            break;  
+
+        case "viewer":
+
+            accessLevel = "Acceso solo para ver contenido";
+
+            break;
+
+        default:
+
+            accessLevel = "Acceso denegado";
+
+    }
+
+    return accessLevel;
+
+};
+
+console.log( getAccessLevel("editor") ); // Acceso para editar contenido
+
+// ------------------------ Operador ternario --------------------------
+
+/*
+
+ Es el único operador de JavaScript que tiene 3 operandos.
+
+ Generalmente se utiliza como opción a la sentencia if-else.
+
+ Sintaxis:
+
 /**
  * Switch case con el patrón "Single Entry, Single Exit"
  */
@@ -358,6 +481,22 @@ console.log(evaluarElNumeroSwitch(100) ); // Grande
 */
 
 
+/*
+
+ Realizar una función que reciba un número y retorne
+
+ "Par" si el número es par o "Impar" si el número es impar.
+
+ Usar el operador ternario.
+
+*/
+
+const valorNumero = (numero) => {
+    return numero % 2 === 0 ? "Par" : "impar" 
+}
+
+console.log(valorNumero(8));
+console.log(valorNumero(7));
 const votingEligibility = (age) => {
     return age >= 18 ? "Puede votar" : "No puede votar";
 }
